@@ -1,0 +1,25 @@
+body {
+        background-image: url("https://postimg.cc/GH6kgffq");
+  background-repeat: repeat;
+  }
+  
+  #para1 {
+    text-align: center;
+    font-size: 600%;
+    color: black;
+  }
+  
+  .absolute {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+/* unvisited link */
+a:link {
+  color: #14cfd9;
+}
+
+/* visited link */
+a:visited {
+  color: #d91431;
+}

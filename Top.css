@@ -1,0 +1,140 @@
+html { 
+  background: url("https://postimg.cc/CZS8kCRj") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+class {
+	font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "ＭＳ ゴシック" , "MS Gothic", "Noto Sans CJK JP", TakaoPGothic, sans-serif;
+	
+		margin-top:0px;
+		margin-bottom:0px;
+		padding-top:0px;
+		padding-bottom:0px;
+		color: white;
+	
+	}
+	a:link{
+		text-decoration:none;
+		color:white;
+	}
+	a:visited{
+		text-decoration:none;
+		color:#D291BC;
+	}
+	a:hover{
+		text-decoration:underline;
+		color:#ffffff;
+	}
+	hr{
+		height:1px;
+		color:#ffffff;
+		border-style:dashed;
+		width:100%;
+	}
+	p{
+		margin-left:20px;
+		margin-right:20px;
+	}
+
+
+body {
+  margin: 40px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+  }
+
+  .sidebar2 {
+    grid-area: sidebar2;
+  }
+
+  .content {
+    grid-area: content;
+  }
+
+  .header {
+    grid-area: header;
+  }
+
+  .footer {
+    grid-area: footer;
+  }
+
+  .wrapper {
+    background-color: ;
+    color: black;
+    
+  }
+
+  .wrapper {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas:
+     "header"
+     "sidebar"
+     "content"
+     "sidebar2"
+     "footer"
+  }
+
+  @media only screen and (min-width: 500px)  {
+  .wrapper {
+
+    grid-template-columns: 20% auto;
+    grid-template-areas:
+    "header   header"
+    "sidebar  content"
+    "sidebar2 sidebar2"
+    "footer   footer";
+  }
+  }
+
+  @media only screen and (min-width: 600px)   {
+    .wrapper {
+      
+      grid-gap: 20px;
+      grid-template-columns: 200px auto 200px;
+      grid-template-areas:
+    
+      "header  header  header"
+      "sidebar content sidebar2"
+      "footer  footer  footer";
+      max-width: 1000px;
+    }
+  }
+
+.box {
+  background-color: black;
+  color: white;
+  border-radius: 1px;
+  padding: 10px;
+  font-size: 100%; 
+}
+
+.header,
+.footer {
+  background-color: DarkOrchid;
+}
+
+
+
+#statuscafe {
+    padding: .5em;
+    background-color: black;
+    border: 1px solid white;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
+
+.sidebar2 {
+  background-color: Black;
+  color: white;
+}
